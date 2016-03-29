@@ -18,5 +18,8 @@
     -- If you depend on other rocks, add them here
  }
  build = {
-    -- We'll start here.
+    type="builtin",
+    modules = {
+        hellofunc = "hellofunc.c"
+    }
  }

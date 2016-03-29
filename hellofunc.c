@@ -38,7 +38,7 @@ static int icube(lua_State *L){                /* Internal name of func */
  * each function you want available from Lua.
  *
 */
-int luaopen_power(lua_State *L){
+int luaopen_hellofunc(lua_State *L){
 	lua_register(
 			L,               /* Lua state variable */
 			"square",        /* func name as known in Lua */
